@@ -1,0 +1,15 @@
+input[type=text] {
+    background-color: #ffe63b;
+}
+input[type=submit] {
+    background-color: #ffe63b;
+    }
+
+#lname { 
+	font-weight: bold; 
+
+}
+h2 {
+    border-style: solid;
+    
+}

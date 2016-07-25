@@ -1,0 +1,41 @@
+
+<!-- This page needs a form that can capture data about the user's
+first name, last name, job title, and salary requirements. -->
+
+
+<!doctype html>
+<html>
+<head>
+    <title>Skills-HTML-CSS</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+
+<h1>Application For Employment</h1>
+
+<h2>Please Fill out the form</h2>
+
+<form action="/application" method"POST">
+
+	<p><label for="name">First Name: </label>
+	<input input id="name" type="text" name="firstname"></p>
+	
+	<p id="lname"><label for="lname">Last Name: </label>
+	<input input id="lname" type="text" name="lastname"></p>
+	
+	<p><label for="salary">Salary Requirement ($): </label>
+	<input input id="salary" type="text" name="salary"></p>
+	
+	<p><label for="job">Which job are you applying for: </label>
+		<select id="job" name="select">
+		<option value="software">Software Engineer</option>
+		<option value="qa">QA Engineer</option>
+		<option value="product">Product Manager</option></select></p>
+		
+	<p><input type="submit" value="Submit"></p>
+
+</form>
+
+
+</body>
+</html>
